@@ -1,0 +1,31 @@
+void main() {
+  Mathematics math = Mathematics();
+  math.sum(32,47);
+  math.minus(824,325);
+  math.multiple(63,9);
+  math.division(99,3);
+}
+class Mathematics{
+  void sum (int a, int b){
+    int c = (a + b);
+    print('Sum Result is : $c');
+  }
+  
+  void minus (int a, int b){  
+    int c = a - b;
+    print('Minus Result is : $c');   
+  }
+  
+  void multiple (int a, int b){ 
+    int c = a * b;
+    print('Multiple Result is : $c');
+  }
+  
+  
+  void division (int a, int b){ 
+    int c = a + b;
+    print('Division Result is : $c');
+  }
+  
+  
+}
